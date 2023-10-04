@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import doUntil from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-do-until@esm/index.mjs';
+import doUntil from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-do-until@v0.1.1-esm/index.mjs';
 ```
 
 #### doUntil( fcn, predicate\[, thisArg ] )
@@ -130,7 +130,7 @@ console.log( context.count );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import doUntil from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-do-until@esm/index.mjs';
+import doUntil from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-do-until@v0.1.1-esm/index.mjs';
 
 function predicate() {
     return ( randu() <= 0.05 );
