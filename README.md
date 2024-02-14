@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import doUntil from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-do-until@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-do-until/tags). For example,
+
+```javascript
 import doUntil from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-do-until@v0.2.0-deno/mod.js';
 ```
 
@@ -125,7 +130,7 @@ console.log( context.count );
 
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import doUntil from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-do-until@v0.2.0-deno/mod.js';
+import doUntil from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-do-until@deno/mod.js';
 
 function predicate() {
     return ( randu() <= 0.05 );
